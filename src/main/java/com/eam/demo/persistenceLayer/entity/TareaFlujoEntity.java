@@ -38,5 +38,19 @@ public class TareaFlujoEntity {
 	@ManyToOne
 	@JoinColumn(name = "id_usuario")
 	private UsuarioEntity usuario;
+	
+	public TareaFlujoEntity() {}
+
+	public TareaFlujoEntity(boolean estadoTarea, OffsetDateTime fechaAsignacion, OffsetDateTime fechaResolucion, String comentario, DocumentoFlujoEntity documentoFlujo, FlujoPasoEntity flujoPaso, UsuarioEntity usuario) {
+		this.estadoTarea = estadoTarea;
+		this.fechaAsignacion = fechaAsignacion;
+		this.fechaResolucion = fechaResolucion;
+		this.comentario = comentario;
+		this.documentoFlujo = documentoFlujo;
+		this.flujoPaso = flujoPaso;
+		this.usuario = usuario;
+	}
+	
+	
 
 }
