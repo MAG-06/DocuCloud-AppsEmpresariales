@@ -26,9 +26,6 @@ public interface FlujoService {
     //buscar flujos por organizacion
     List<FlujoDTO> getFlujosByOrganizacion(Integer organizacionId);
 
-    //buscar flujos por nombre
-    List<FlujoDTO> searchFlujosByNombre(String nombre);
-
     //obtener total de flujos
     long getTotalFlujosCount();
 }

@@ -32,9 +32,6 @@ public interface UsuarioService {
     //buscar usuarios por organizacion
     List<UsuarioDTO> getUsuariosByOrganizacion(Integer organizacionId);
 
-    //buscar usuarios activos
-    List<UsuarioDTO> getUsuariosActivos();
-
     //verificar si el correo ya esta en uso
     boolean isCorreoTaken(String correo);
 

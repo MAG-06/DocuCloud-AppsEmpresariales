@@ -29,9 +29,6 @@ public interface FlujoPasoService {
     //buscar pasos por rol responsable
     List<FlujoPasoDTO> getPasosByRol(Integer rolId);
 
-    //buscar siguiente paso en el flujo
-    FlujoPasoDTO getSiguientePaso(Integer flujoId, Integer ordenActual);
-
     //obtener total de pasos de un flujo
     long countPasosByFlujo(Integer flujoId);
     

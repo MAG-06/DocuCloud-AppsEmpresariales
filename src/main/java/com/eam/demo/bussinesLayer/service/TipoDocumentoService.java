@@ -23,17 +23,10 @@ public interface TipoDocumentoService {
     //eliminar tipo de documento
     void deleteTipoDocumento(Integer id);
 
-    //buscar tipos por organizacion
-    List<TipoDocumentoDTO> getTiposByOrganizacion(Integer organizacionId);
+    TipoDocumentoDTO getTipoDocumentoByNombre(String nombre);
 
-    //buscar tipos activos
-    List<TipoDocumentoDTO> getTiposActivos();
+    boolean isNombreTakenEnOrganizacion(String nombre, Integer organizacionId);
 
-    //buscar tipos que requieren aprobacion
-    List<TipoDocumentoDTO> getTiposQueRequierenAprobacion();
-
-    //buscar tipo por nombre
-    List<TipoDocumentoDTO> searchTiposByNombre(String nombre);
 
     //obtener total de tipos de documento
     long getTotalTiposDocumentoCount();
