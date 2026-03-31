@@ -31,10 +31,7 @@ public interface DocumentoFlujoService {
 
     //buscar por paso actual
     List<DocumentoFlujoDTO> getByFlujoPaso(Integer flujoPasoId);
-
-    //obtener documentos en flujo activos
-    List<DocumentoFlujoDTO> getActivos();
-
+    
     //finalizar documento en flujo
     DocumentoFlujoDTO finalizarFlujo(Integer id);
 }

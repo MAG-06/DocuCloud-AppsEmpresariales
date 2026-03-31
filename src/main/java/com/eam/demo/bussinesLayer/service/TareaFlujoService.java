@@ -29,11 +29,8 @@ public interface TareaFlujoService {
     //buscar tareas por documento en flujo
     List<TareaFlujoDTO> getTareasByDocumentoFlujo(Integer documentoFlujoId);
 
-    //buscar tareas pendientes
-    List<TareaFlujoDTO> getTareasPendientes();
-
-    //buscar tareas resueltas
-    List<TareaFlujoDTO> getTareasResueltas();
+    //buscar tareas 
+    List<TareaFlujoDTO> getTareasByFlujoPaso(Integer flujoPasoId);
 
     //obtener total de tareas
     long getTotalTareasCount();

@@ -32,8 +32,8 @@ public interface DocumentoService {
     //buscar documentos por tipo
     List<DocumentoDTO> getDocumentosByTipo(Integer tipoDocumentoId);
 
-    //buscar documentos activos
-    List<DocumentoDTO> getDocumentosActivos();
+    //buscar documentos estado
+    List<DocumentoDTO> getDocumentosByEstado(boolean estado);
 
     //buscar documentos por título
     List<DocumentoDTO> searchDocumentosByTitulo(String titulo);

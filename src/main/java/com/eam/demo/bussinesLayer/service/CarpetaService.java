@@ -26,12 +26,6 @@ public interface CarpetaService {
     //buscar carpetas por organizacion
     List<CarpetaDTO> getCarpetasByOrganizacion(Integer organizacionId);
 
-    //buscar carpetas por nombre
-    List<CarpetaDTO> searchCarpetasByNombre(String nombre);
-
-    //obtener cantidad de documentos en una carpeta
-    Long getDocumentCountByCarpeta(Integer carpetaId);
-
     //obtener total de carpetas
     long getTotalCarpetasCount();
 }
