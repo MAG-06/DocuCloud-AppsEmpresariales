@@ -33,5 +33,76 @@ public class TipoDocumentoEntity {
     @ManyToOne
     @JoinColumn(name = "id_flujo")
     private FlujoEntity flujo;
+    
+	public TipoDocumentoEntity() {}
+
+	public TipoDocumentoEntity(String nombre, String descripcion, boolean activo,boolean requiereAprobacion, OrganizacionEntity organizacion, FlujoEntity flujo) {
+		this.nombre = nombre;
+		this.descripcion = descripcion;
+		this.activo = activo;
+		this.requiereAprobacion = requiereAprobacion;
+		this.organizacion = organizacion;
+		this.flujo = flujo;
+	}
+
+	public int getIdTipoDocumento() {
+		return idTipoDocumento;
+	}
+
+	public void setIdTipoDocumento(int idTipoDocumento) {
+		this.idTipoDocumento = idTipoDocumento;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getDescripcion() {
+		return descripcion;
+	}
+
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
+	}
+
+	public boolean isActivo() {
+		return activo;
+	}
+
+	public void setActivo(boolean activo) {
+		this.activo = activo;
+	}
+
+	public boolean isRequiereAprobacion() {
+		return requiereAprobacion;
+	}
+
+	public void setRequiereAprobacion(boolean requiereAprobacion) {
+		this.requiereAprobacion = requiereAprobacion;
+	}
+
+	public OrganizacionEntity getOrganizacion() {
+		return organizacion;
+	}
+
+	public void setOrganizacion(OrganizacionEntity organizacion) {
+		this.organizacion = organizacion;
+	}
+
+	public FlujoEntity getFlujo() {
+		return flujo;
+	}
+
+	public void setFlujo(FlujoEntity flujo) {
+		this.flujo = flujo;
+	}
+	
+	
+    
+    
 
 }

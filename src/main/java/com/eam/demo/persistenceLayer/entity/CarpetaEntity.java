@@ -29,5 +29,59 @@ public class CarpetaEntity {
 	@JoinColumn(name = "id_organizacion")
 	private OrganizacionEntity organizacion;
 	
+	public CarpetaEntity() {}
+
+	public CarpetaEntity(String nombre, String descripcion, OffsetDateTime fechaCreacion, OrganizacionEntity organizacion) {
+		this.nombre = nombre;
+		this.descripcion = descripcion;
+		this.fechaCreacion = fechaCreacion;
+		this.organizacion = organizacion;
+	}
+
+	public int getIdCarpeta() {
+		return idCarpeta;
+	}
+
+	public void setIdCarpeta(int idCarpeta) {
+		this.idCarpeta = idCarpeta;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getDescripcion() {
+		return descripcion;
+	}
+
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
+	}
+
+	public OffsetDateTime getFechaCreacion() {
+		return fechaCreacion;
+	}
+
+	public void setFechaCreacion(OffsetDateTime fechaCreacion) {
+		this.fechaCreacion = fechaCreacion;
+	}
+
+	public OrganizacionEntity getOrganizacion() {
+		return organizacion;
+	}
+
+	public void setOrganizacion(OrganizacionEntity organizacion) {
+		this.organizacion = organizacion;
+	}
+	
+	
+	
+	
+	
+	
 
 }

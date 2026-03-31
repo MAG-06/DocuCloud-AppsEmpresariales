@@ -38,6 +38,86 @@ public class VersionDocumentoEntity {
 	@JoinColumn(name = "id_documento")
 	private DocumentoEntity documento;
 	
+	public VersionDocumentoEntity() {}
+
+	public VersionDocumentoEntity(int numeroVersion, String nombreArchivo, String rutaArchivo, String comentarioCambio, OffsetDateTime fechaSubida, boolean esActual, DocumentoEntity documento) {
+		this.numeroVersion = numeroVersion;
+		this.nombreArchivo = nombreArchivo;
+		this.rutaArchivo = rutaArchivo;
+		this.comentarioCambio = comentarioCambio;
+		this.fechaSubida = fechaSubida;
+		this.esActual = esActual;
+		this.documento = documento;
+	}
+
+	public int getIdVersionDocumento() {
+		return idVersionDocumento;
+	}
+
+	public void setIdVersionDocumento(int idVersionDocumento) {
+		this.idVersionDocumento = idVersionDocumento;
+	}
+
+	public int getNumeroVersion() {
+		return numeroVersion;
+	}
+
+	public void setNumeroVersion(int numeroVersion) {
+		this.numeroVersion = numeroVersion;
+	}
+
+	public String getNombreArchivo() {
+		return nombreArchivo;
+	}
+
+	public void setNombreArchivo(String nombreArchivo) {
+		this.nombreArchivo = nombreArchivo;
+	}
+
+	public String getRutaArchivo() {
+		return rutaArchivo;
+	}
+
+	public void setRutaArchivo(String rutaArchivo) {
+		this.rutaArchivo = rutaArchivo;
+	}
+
+	public String getComentarioCambio() {
+		return comentarioCambio;
+	}
+
+	public void setComentarioCambio(String comentarioCambio) {
+		this.comentarioCambio = comentarioCambio;
+	}
+
+	public OffsetDateTime getFechaSubida() {
+		return fechaSubida;
+	}
+
+	public void setFechaSubida(OffsetDateTime fechaSubida) {
+		this.fechaSubida = fechaSubida;
+	}
+
+	public boolean isEsActual() {
+		return esActual;
+	}
+
+	public void setEsActual(boolean esActual) {
+		this.esActual = esActual;
+	}
+
+	public DocumentoEntity getDocumento() {
+		return documento;
+	}
+
+	public void setDocumento(DocumentoEntity documento) {
+		this.documento = documento;
+	}
+	
+	
+	
+	
+	
 	
 	
 

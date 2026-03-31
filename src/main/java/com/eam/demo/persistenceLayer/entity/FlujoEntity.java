@@ -24,5 +24,49 @@ public class FlujoEntity {
     @ManyToOne
     @JoinColumn(name = "id_organizacion")
     private OrganizacionEntity organizacion;
+    
+	public FlujoEntity() {}
+
+	public FlujoEntity(String nombre, String descripcion, OrganizacionEntity organizacion) {
+		this.nombre = nombre;
+		this.descripcion = descripcion;
+		this.organizacion = organizacion;
+	}
+
+	public int getIdFlujo() {
+		return idFlujo;
+	}
+
+	public void setIdFlujo(int idFlujo) {
+		this.idFlujo = idFlujo;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getDescripcion() {
+		return descripcion;
+	}
+
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
+	}
+
+	public OrganizacionEntity getOrganizacion() {
+		return organizacion;
+	}
+
+	public void setOrganizacion(OrganizacionEntity organizacion) {
+		this.organizacion = organizacion;
+	}
+	
+	
+    
+    
 
 }
