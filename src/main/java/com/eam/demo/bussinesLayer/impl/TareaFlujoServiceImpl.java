@@ -16,7 +16,7 @@ import java.util.List;
 @Transactional
 @RequiredArgsConstructor
 @Slf4j
-public class TareaFlujoServiseImpl implements TareaFlujoService {
+public class TareaFlujoServiceImpl implements TareaFlujoService {
     
     private final TareaFlujoDAO tareaFlujoDAO;
 
