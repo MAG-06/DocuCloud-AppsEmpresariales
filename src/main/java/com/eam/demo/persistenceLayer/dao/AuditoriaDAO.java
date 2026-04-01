@@ -3,17 +3,13 @@ package com.eam.demo.persistenceLayer.dao;
 import java.time.OffsetDateTime;
 import java.util.List;
 import java.util.Optional;
-
 import org.springframework.stereotype.Repository;
-
 import com.eam.demo.bussinesLayer.dto.AuditoriaCreateDTO;
 import com.eam.demo.bussinesLayer.dto.AuditoriaDTO;
 import com.eam.demo.bussinesLayer.dto.AuditoriaUpdateDTO;
 import com.eam.demo.persistenceLayer.entity.AuditoriaEntity;
 import com.eam.demo.persistenceLayer.mapper.AuditoriaMapper;
 import com.eam.demo.persistenceLayer.repository.AuditoriaRepository;
-
-import lombok.RequiredArgsConstructor;
 
 @Repository
 public class AuditoriaDAO {
