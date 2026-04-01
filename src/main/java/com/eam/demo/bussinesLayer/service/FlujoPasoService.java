@@ -29,7 +29,6 @@ public interface FlujoPasoService {
     //buscar pasos por rol responsable
     List<FlujoPasoDTO> getPasosByRol(Integer rolId);
 
-    //obtener total de pasos de un flujo
-    long countPasosByFlujo(Integer flujoId);
+    long getTotalFlujoPasosCount();
     
 }
