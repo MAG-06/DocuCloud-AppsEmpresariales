@@ -1,0 +1,384 @@
+---- AspectJ Properties ---
+AspectJ Compiler 1.9.25.1 built on Tuesday Dec 16, 2025 at 15:21:40 PST
+---- Dump Properties ---
+Dump file: ajcore.20260419.235223.339.txt
+Dump reason: abort
+Dump on exception: true
+Dump at exit condition: abort
+---- System Properties ---
+java.specification.version=21
+sun.cpu.isalist=amd64
+sun.jnu.encoding=Cp1252
+org.gradle.test.worker=3
+java.class.path=C:\\Users\\Nimac\\.gradle\\caches\\9.4.1\\workerMain\\gradle-worker.jar;C:\\Users\\Nimac\\Downloads\\codigos\\DocuCloud-AppsEmpresariales\\build\\classes\\java\\test;C:\\Users\\Nimac\\Downloads\\codigos\\DocuCloud-AppsEmpresariales\\build\\classes\\java\\main;C:\\Users\\Nimac\\Downloads\\codigos\\DocuCloud-AppsEmpresariales\\build\\resources\\main;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-starter-data-jpa\\4.0.5\\a3c0f0ce8718685f41558b30cc0e18fa0aec6ed0\\spring-boot-starter-data-jpa-4.0.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-starter-webmvc\\4.0.5\\3bb411e29fbfb48fa378eb7ca6d11dedc6a8b3e8\\spring-boot-starter-webmvc-4.0.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springdoc\\springdoc-openapi-starter-webmvc-ui\\3.0.2\\1738afcba73376b364b2c023b6142936078da5e4\\springdoc-openapi-starter-webmvc-ui-3.0.2.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.mapstruct\\mapstruct\\1.6.3\\416a2155212286d6a1c4cb3bb553c7dfd6a1a092\\mapstruct-1.6.3.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.postgresql\\postgresql\\42.7.10\\35100a3f0899551e27af8fed4a3414619a4663b3\\postgresql-42.7.10.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-starter-test\\4.0.5\\d55b98dcca3abb61dba85d094143bf5a11df636c\\spring-boot-starter-test-4.0.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\com.h2database\\h2\\2.4.240\\686180ad33981ad943fdc0ab381e619b2c2fdfe5\\h2-2.4.240.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.jupiter\\junit-jupiter\\6.0.3\\da72f4bc0feccbca639b901ace26e3a62512ebec\\junit-jupiter-6.0.3.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.jupiter\\junit-jupiter-engine\\6.0.3\\e26f7e17d06cfc85ba7643b5ad00c87d5f2084dd\\junit-jupiter-engine-6.0.3.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.platform\\junit-platform-engine\\6.0.3\\101305612e7daa4ce978d3ba73fd02dd4a5f22d9\\junit-platform-engine-6.0.3.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.mockito\\mockito-junit-jupiter\\5.20.0\\58ed6603af5f8f53886d49be00264a3fdd1278d5\\mockito-junit-jupiter-5.20.0.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\io.qameta.allure\\allure-junit5\\2.24.0\\15315dae33abf784c4185719172d541dfde3ceb9\\allure-junit5-2.24.0.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\io.qameta.allure\\allure-junit-platform\\2.24.0\\a9cbe33ec88c20b09d74e15e70e633d69c6d98ea\\allure-junit-platform-2.24.0.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.jupiter\\junit-jupiter-params\\6.0.3\\6cd3efadd171a3ddd70413868a9c3af988a45907\\junit-jupiter-params-6.0.3.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.jupiter\\junit-jupiter-api\\6.0.3\\2e6cfb62db85350179f0408ed5270f7cdf8cefda\\junit-jupiter-api-6.0.3.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.platform\\junit-platform-commons\\6.0.3\\1093a7faa2ba47c28aa83f378d9a2083463bb20c\\junit-platform-commons-6.0.3.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.platform\\junit-platform-launcher\\6.0.3\\4a721cdd640ebdaa4c6850f5eee0b0377cf698b0\\junit-platform-launcher-6.0.3.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-starter-jdbc\\4.0.5\\2ca3dfd8e504d7fec3c477a0ed44231e37d531a4\\spring-boot-starter-jdbc-4.0.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-starter-jackson\\4.0.5\\16d3f8e99476fd61f39de7e96d2b66a2d18e943d\\spring-boot-starter-jackson-4.0.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-starter-tomcat\\4.0.5\\f8dc612cb0cdd09c0d29f1a16bfbf184629f247\\spring-boot-starter-tomcat-4.0.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springdoc\\springdoc-openapi-starter-webmvc-api\\3.0.2\\d303ea8773ee04b09cfd6d23ec63e2014a04ffbc\\springdoc-openapi-starter-webmvc-api-3.0.2.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springdoc\\springdoc-openapi-starter-common\\3.0.2\\2fecbcaa53ead093a694cd6317879f3b58346caf\\springdoc-openapi-starter-common-3.0.2.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-starter\\4.0.5\\2767611655cf4a17306c3331f95b6f90db83ee06\\spring-boot-starter-4.0.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-data-jpa\\4.0.5\\63ccca96fabdd60b682f54be7127723b6cdbf04a\\spring-boot-data-jpa-4.0.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-hibernate\\4.0.5\\920b9d847da7109fbe585967486eef153466e630\\spring-boot-hibernate-4.0.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-jpa\\4.0.5\\c3530a499809aeab48dff7911312105fa457939d\\spring-boot-jpa-4.0.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-jdbc\\4.0.5\\91b50419766f999c4a7c155d74955a67ad00237d\\spring-boot-jdbc-4.0.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-webmvc\\4.0.5\\33bed4ae1c0fef88d4ebdb82916fbb19b884a034\\spring-boot-webmvc-4.0.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-http-converter\\4.0.5\\54326cc39a6fd5d5f5bf63f5b25d527d3cd40b57\\spring-boot-http-converter-4.0.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.webjars\\swagger-ui\\5.32.0\\d04c7e3e5b8616813136fa36382a548751775528\\swagger-ui-5.32.0.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.webjars\\webjars-locator-lite\\1.1.3\\217ce590453251b39b72c4a9af3986998f6fdbd9\\webjars-locator-lite-1.1.3.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.checkerframework\\checker-qual\\3.52.0\\9c17f496846ab1fca8975c6a50ceac0b3bbe63f0\\checker-qual-3.52.0.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-test-autoconfigure\\4.0.5\\9ef136f6741e8c0a245b887fd4d17d6660074f8e\\spring-boot-test-autoconfigure-4.0.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-test\\4.0.5\\3363245fc39721cb533a7258dea29b7190eda8c3\\spring-boot-test-4.0.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\com.jayway.jsonpath\\json-path\\2.10.0\\e1a0b2e6db75401181c9c1c64c6d155ca5c6d608\\json-path-2.10.0.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.hibernate.orm\\hibernate-core\\7.2.7.Final\\2d4b2af4c6b3b1723f2832ebca83bd154662cefd\\hibernate-core-7.2.7.Final.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\io.swagger.core.v3\\swagger-core-jakarta\\2.2.43\\500566364be54e3556bcec28922a41ca5fcc7dcd\\swagger-core-jakarta-2.2.43.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jaxb\\jaxb-runtime\\4.0.6\\fb95ebb62564657b2fedfe165b859789ef3a8711\\jaxb-runtime-4.0.6.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jaxb\\jaxb-core\\4.0.6\\8e61282303777fc98a00cc3affd0560d68748a75\\jaxb-core-4.0.6.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\jakarta.xml.bind\\jakarta.xml.bind-api\\4.0.4\\d6d2327f3817d9a33a3b6b8f2e15a96bc2e7afdc\\jakarta.xml.bind-api-4.0.4.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\net.minidev\\json-smart\\2.6.0\\5f858a43a325a8673da6869ab2bc787a1bcb2244\\json-smart-2.6.0.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.assertj\\assertj-core\\3.27.7\\2f4f64f054c9d618d4b1d89e7611559f5e2cfff7\\assertj-core-3.27.7.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.awaitility\\awaitility\\4.3.0\\f0c0bc1e404e500bab3f498b922eaedeae1c0207\\awaitility-4.3.0.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.hamcrest\\hamcrest\\3.0\\8fd9b78a8e6a6510a078a9e30e9e86a6035cfaf7\\hamcrest-3.0.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.mockito\\mockito-core\\5.20.0\\a32f446f38acf636363c5693db6498047731b9e0\\mockito-core-5.20.0.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.skyscreamer\\jsonassert\\1.5.3\\aaa43e0823d2a0e106e8754d6a9c4ab24e05e9bc\\jsonassert-1.5.3.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-test\\7.0.6\\fd012839666ea5696d9efda89717d5f3f134fefe\\spring-test-7.0.6.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.data\\spring-data-jpa\\4.0.4\\4421c139d505613ee2bb4cee1f8d51c219e36380\\spring-data-jpa-4.0.4.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-autoconfigure\\4.0.5\\bf08009c287a35514024334852a88cb257e783dc\\spring-boot-autoconfigure-4.0.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-data-commons\\4.0.5\\2a09a26870c634b1caaed9cd2d06b13a24869e4\\spring-boot-data-commons-4.0.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-sql\\4.0.5\\465edfcf125b39ace75cb02a383277d2eb9bea72\\spring-boot-sql-4.0.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-transaction\\4.0.5\\37bcc8daa316b761223588c5e457ab92b89e2b71\\spring-boot-transaction-4.0.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-jackson\\4.0.5\\86a6e7f4c1e1c613dfdbf0b320b5092e725a53f6\\spring-boot-jackson-4.0.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-servlet\\4.0.5\\2d198d18d68eb0f3bc0bde435cb684a955f32ad5\\spring-boot-servlet-4.0.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-starter-tomcat-runtime\\4.0.5\\d352a6c24ad93d1518233ddce144a180d491073b\\spring-boot-starter-tomcat-runtime-4.0.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-tomcat\\4.0.5\\de470a149dd8e9871cf8b918541303dfce6553b8\\spring-boot-tomcat-4.0.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-web-server\\4.0.5\\e70e3422c68f2fae6fcb2782be5fa31c0a788a6d\\spring-boot-web-server-4.0.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-persistence\\4.0.5\\dbfa95f90464d81da553c092572154214ac97c47\\spring-boot-persistence-4.0.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-validation\\4.0.5\\e1bda22af7da5e23ff0ba8212577b28c61dccdcc\\spring-boot-validation-4.0.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot\\4.0.5\\465309ef0008c598d714c3b4d27c9f9e0876d015\\spring-boot-4.0.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-orm\\7.0.6\\719bd92fe383fcc5b084675667da870ff8dabeca\\spring-orm-7.0.6.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-jdbc\\7.0.6\\5640a8dd396b13e5ecc7ad222c0788eb0214a743\\spring-jdbc-7.0.6.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-webmvc\\7.0.6\\da516a887d0fea326c16b07fb2519f7f112f8eda\\spring-webmvc-7.0.6.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-web\\7.0.6\\2baeb353efd42374239cc45e8d02780d6c6e7a77\\spring-web-7.0.6.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.data\\spring-data-commons\\4.0.4\\7770d18057ad59f7af71584c45583f303d17a6f0\\spring-data-commons-4.0.4.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-context\\7.0.6\\e722fa5455c1be437de1947d570506cb2bb142e9\\spring-context-7.0.6.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-aop\\7.0.6\\1b8358db4326013f8cfcbf22061aa076489dfbbe\\spring-aop-7.0.6.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-tx\\7.0.6\\94e443fe301137d8fec6f8092e10ed62bd6432b3\\spring-tx-7.0.6.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-beans\\7.0.6\\e8433956653fd38cf0b1d8769484ca8411123713\\spring-beans-7.0.6.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-expression\\7.0.6\\c00c73c545c81e2eae224a46a7c509fca74a2860\\spring-expression-7.0.6.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-core\\7.0.6\\5e4e7fd5bee4be66a0786abe0c90419a713114b5\\spring-core-7.0.6.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.xmlunit\\xmlunit-core\\2.10.4\\eff1eddcdb52fdeaa7e28ca68301db49361d8bec\\xmlunit-core-2.10.4.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-starter-logging\\4.0.5\\a8ec816a66922170c0b2abbc4720382fb248183d\\spring-boot-starter-logging-4.0.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\jakarta.annotation\\jakarta.annotation-api\\3.0.0\\54f928fadec906a99d558536756d171917b9d936\\jakarta.annotation-api-3.0.0.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.datatype\\jackson-datatype-jsr310\\2.21.2\\65b0cef8d997561541b7db6bbb1f6d42913b60e0\\jackson-datatype-jsr310-2.21.2.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-databind\\2.21.2\\71ab8ff75b4fd74afdee0004173fdd15de1d6a28\\jackson-databind-2.21.2.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-core\\2.21.2\\7d11eac823392f28d8ee7bda77eaadfccbab83e5\\jackson-core-2.21.2.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.dataformat\\jackson-dataformat-yaml\\2.21.2\\61694c28cd9661c97cf160c9858ec9658360ae71\\jackson-dataformat-yaml-2.21.2.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.yaml\\snakeyaml\\2.5\\2d53ddec134280cb384c1e35d094e5f71c1f2316\\snakeyaml-2.5.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\com.zaxxer\\HikariCP\\7.0.2\\c2b43c946b86a14a96342379e22b004c56c6166d\\HikariCP-7.0.2.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-aspects\\7.0.6\\5a89bac97d1aa057aa9bafc1cd1c76b1329dc0cc\\spring-aspects-7.0.6.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\io.micrometer\\micrometer-observation\\1.16.4\\64b57332a68b75ba36d9bf9b4cfd62610d0fb158\\micrometer-observation-1.16.4.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\io.micrometer\\micrometer-commons\\1.16.4\\b6a0e350a714f4cd973d760e68104c9602b4564c\\micrometer-commons-1.16.4.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.jspecify\\jspecify\\1.0.0\\7425a601c1c7ec76645a78d22b8c6a627edee507\\jspecify-1.0.0.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\io.qameta.allure\\allure-test-filter\\2.24.0\\fbbf36a6da1675ce3f666cae6bb439bf0aadd5a1\\allure-test-filter-2.24.0.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\io.qameta.allure\\allure-java-commons\\2.24.0\\9deef1019dd7eeb302dd2585259b33b19bb1fa53\\allure-java-commons-2.24.0.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\ch.qos.logback\\logback-classic\\1.5.32\\2b1042c50f508f2eb402bd4d22ccbdf94cc37d2e\\logback-classic-1.5.32.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.logging.log4j\\log4j-to-slf4j\\2.25.3\\30adfb40cca243ec88cf7ec1fddb411ab55faa4f\\log4j-to-slf4j-2.25.3.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\jul-to-slf4j\\2.0.17\\524cb6ccc2b68a57604750e1ab8b13b5a786a6aa\\jul-to-slf4j-2.0.17.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\slf4j-api\\2.0.17\\d9e58ac9c7779ba3bf8142aff6c830617a7fe60f\\slf4j-api-2.0.17.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.angus\\angus-activation\\2.0.3\\7f80607ea5014fef0b1779e6c33d63a88a45a563\\angus-activation-2.0.3.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\jakarta.activation\\jakarta.activation-api\\2.1.4\\9e5c2a0d75dde71a0bedc4dbdbe47b78a5dc50f8\\jakarta.activation-api-2.1.4.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\net.minidev\\accessors-smart\\2.6.0\\2d96f1d9b6ab7f13261aa81b15703574185747a0\\accessors-smart-2.6.0.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\net.bytebuddy\\byte-buddy\\1.17.8\\af5735f63d00ca47a9375fae5c7471a36331c6ed\\byte-buddy-1.17.8.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\net.bytebuddy\\byte-buddy-agent\\1.17.8\\f09415827a71be7ed621c7bd02550678f28bc81c\\byte-buddy-agent-1.17.8.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.objenesis\\objenesis\\3.3\\1049c09f1de4331e8193e579448d0916d75b7631\\objenesis-3.3.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\com.vaadin.external.google\\android-json\\0.0.20131108.vaadin1\\fa26d351fe62a6a17f5cda1287c1c6110dec413f\\android-json-0.0.20131108.vaadin1.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\commons-logging\\commons-logging\\1.3.6\\63e78ca6cd446c0ad166d14f03ed99e7efb3896d\\commons-logging-1.3.6.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.opentest4j\\opentest4j\\1.3.0\\152ea56b3a72f655d4fd677fc0ef2596c3dd5e6e\\opentest4j-1.3.0.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.antlr\\antlr4-runtime\\4.13.2\\fc3db6d844df652a3d5db31c87fa12757f13691d\\antlr4-runtime-4.13.2.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.aspectj\\aspectjweaver\\1.9.25.1\\a713c790da4d794c7dfb542b550d4e44898d5e23\\aspectjweaver-1.9.25.1.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\tools.jackson.core\\jackson-core\\3.1.0\\df0dc5d0bf720739ae7b6afeee2af2aabf88905b\\jackson-core-3.1.0.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\tools.jackson.core\\jackson-databind\\3.1.0\\59a342020cc4f5a49335c16820be6ed8ca8ee6c7\\jackson-databind-3.1.0.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.tomcat.embed\\tomcat-embed-websocket\\11.0.20\\e7f0889299296445fba512d43858b863d563e1d2\\tomcat-embed-websocket-11.0.20.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.tomcat.embed\\tomcat-embed-core\\11.0.20\\384f1db7c5a017bf0381fc03693606a08b252c23\\tomcat-embed-core-11.0.20.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.tomcat.embed\\tomcat-embed-el\\11.0.20\\ed5ce9eeb3fae5b39e6da171f24430d3b7c3195b\\tomcat-embed-el-11.0.20.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm\\9.7.1\\f0ed132a49244b042cd0e15702ab9f2ce3cc8436\\asm-9.7.1.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\io.qameta.allure\\allure-model\\2.24.0\\d9a7bab8d4cc35d70d65e7f6e2e32b7c005a05ae\\allure-model-2.24.0.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\ch.qos.logback\\logback-core\\1.5.32\\fdfb3ff9a842303d4a95207294a6c6bc64e2605d\\logback-core-1.5.32.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.logging.log4j\\log4j-api\\2.25.3\\fb385330d89c2d61058ef649403f214633569205\\log4j-api-2.25.3.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\jakarta.persistence\\jakarta.persistence-api\\3.2.0\\bb75a113f3fa191c2c7ee7b206d8e674251b3129\\jakarta.persistence-api-3.2.0.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\jakarta.transaction\\jakarta.transaction-api\\2.0.1\\51a520e3fae406abb84e2e1148e6746ce3f80a1a\\jakarta.transaction-api-2.0.1.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.hibernate.models\\hibernate-models\\1.0.1\\3158c5f9309494b905de62c72f6f02d108aea651\\hibernate-models-1.0.1.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.hibernate.validator\\hibernate-validator\\9.0.1.Final\\28c0e41ecc84d1f0b8b6d81d16e0784e63364e68\\hibernate-validator-9.0.1.Final.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.jboss.logging\\jboss-logging\\3.6.3.Final\\1cc9f976725720bb4a66f80af3e3aa6b9890d969\\jboss-logging-3.6.3.Final.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml\\classmate\\1.7.3\\f61c7e7b81e9249b0f6a05914eff9d54fb09f4a0\\classmate-1.7.3.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\jakarta.inject\\jakarta.inject-api\\2.0.1\\4c28afe1991a941d7702fe1362c365f0a8641d1e\\jakarta.inject-api-2.0.1.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\io.swagger.core.v3\\swagger-models-jakarta\\2.2.43\\a68f7470eb763609878460272000f260eabc24dc\\swagger-models-jakarta-2.2.43.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-annotations\\2.21\\b1bc1868bf02dc0bd6c7836257a036a331005309\\jackson-annotations-2.21.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.commons\\commons-lang3\\3.19.0\\d6524b169a6574cd253760c472d419b47bfd37e6\\commons-lang3-3.19.0.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\io.swagger.core.v3\\swagger-annotations-jakarta\\2.2.43\\dbd40253251deabb7a628a54b4550dc4fb492f4\\swagger-annotations-jakarta-2.2.43.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\jakarta.validation\\jakarta.validation-api\\3.1.1\\ec8622148afc5564235d17af80ea80288d0e7f92\\jakarta.validation-api-3.1.1.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jaxb\\txw2\\4.0.6\\4f4cd53b5ff9a2c5aa1211f15ed2569c57dfb044\\txw2-4.0.6.jar;C:\\Users\\Nimac\\.gradle\\caches\\modules-2\\files-2.1\\com.sun.istack\\istack-commons-runtime\\4.1.2\\18ec117c85f3ba0ac65409136afa8e42bc74e739\\istack-commons-runtime-4.1.2.jar
+java.vm.vendor=Oracle Corporation
+sun.arch.data.model=64
+user.variant=
+java.vendor.url=https://java.oracle.com/
+user.timezone=America/Bogota
+org.jboss.logging.provider=slf4j
+java.vm.specification.version=21
+os.name=Windows 11
+APPLICATION_NAME=demo
+user.country=ES
+sun.java.launcher=SUN_STANDARD
+sun.boot.library.path=C:\Program Files\Java\jdk-21.0.10\bin
+sun.java.command=worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 3'
+jdk.debug=release
+allure.results.directory=C:\Users\Nimac\Downloads\codigos\DocuCloud-AppsEmpresariales\build\allure-results
+sun.cpu.endian=little
+user.home=C:\Users\Nimac
+user.language=es
+java.specification.vendor=Oracle Corporation
+java.version.date=2026-01-20
+java.home=C:\Program Files\Java\jdk-21.0.10
+file.separator=\
+java.vm.compressedOopsMode=32-bit
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+java.specification.name=Java Platform API Specification
+FILE_LOG_CHARSET=UTF-8
+java.awt.headless=true
+user.script=
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.runtime.version=21.0.10+8-LTS-217
+user.name=Nimac
+stdout.encoding=Cp1252
+path.separator=;
+os.version=10.0
+java.runtime.name=Java(TM) SE Runtime Environment
+file.encoding=UTF-8
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.vendor.url.bug=https://bugreport.java.com/bugreport/
+java.io.tmpdir=C:\Users\Nimac\AppData\Local\Temp\
+java.version=21.0.10
+user.dir=C:\Users\Nimac\Downloads\codigos\DocuCloud-AppsEmpresariales
+os.arch=amd64
+java.vm.specification.name=Java Virtual Machine Specification
+PID=16428
+org.gradle.internal.worker.tmpdir=C:\Users\Nimac\Downloads\codigos\DocuCloud-AppsEmpresariales\build\tmp\test\work
+sun.os.patch.level=
+CONSOLE_LOG_CHARSET=UTF-8
+native.encoding=Cp1252
+java.library.path=C:\Program Files\Java\jdk-21.0.10\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Microsoft SQL Server\170\DTS\Binn\;C:\Program Files\Amazon\AWSSAMCLI\bin\;C:\Users\Nimac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Nimac\AppData\Local\Programs\Python\Python311\;C:\Users\Nimac\AppData\Local\Microsoft\WindowsApps;C:\Users\Nimac\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Nimac\AppData\Roaming\npm;C:\Users\Nimac\AppData\Local\Programs\Antigravity\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2026.1\bin;.
+junit.jupiter.extensions.autodetection.enabled=true
+java.vm.info=mixed mode, sharing
+stderr.encoding=Cp1252
+java.vendor=Oracle Corporation
+java.vm.version=21.0.10+8-LTS-217
+sun.io.unicode.encoding=UnicodeLittle
+java.class.version=65.0
+LOGGED_APPLICATION_NAME=[demo] 
+---- Command Line ---
+Empty
+---- Full Classpath ---
+Empty
+---- Compiler Messages ---
+info AspectJ Weaver Version 1.9.25.1 built on Tuesday Dec 16, 2025 at 15:21:40 PST
+info register classloader jdk.internal.loader.ClassLoaders$AppClassLoader@5a07e868
+info using configuration file:/C:/Users/Nimac/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aspects/7.0.6/5a89bac97d1aa057aa9bafc1cd1c76b1329dc0cc/spring-aspects-7.0.6.jar!/META-INF/aop.xml
+info using configuration file:/C:/Users/Nimac/.gradle/caches/modules-2/files-2.1/io.qameta.allure/allure-junit-platform/2.24.0/a9cbe33ec88c20b09d74e15e70e633d69c6d98ea/allure-junit-platform-2.24.0.jar!/META-INF/aop-ajc.xml
+abort trouble in: 
+class org.springframework.boot.jdbc.DataSourceBuilder$ComboPooledDataSourceProperties extends org.springframework.boot.jdbc.DataSourceBuilder$MappedDataSourceProperties:
+  void <init>():
+                    LDC #8.$jacocoData Ljava/lang/Object;
+                    CHECKCAST [Z
+                    ASTORE_2
+                    ALOAD_0     // Lorg/springframework/boot/jdbc/DataSourceBuilder$ComboPooledDataSourceProperties; this   (line 698)
+                    INVOKESPECIAL org.springframework.boot.jdbc.DataSourceBuilder$MappedDataSourceProperties.<init> ()V
+    constructor-execution(void org.springframework.boot.jdbc.DataSourceBuilder$ComboPooledDataSourceProperties.<init>())
+    |               ALOAD_2
+    |               ICONST_0
+    |               ICONST_1
+    |               BASTORE
+    |               ALOAD_0     // Lorg/springframework/boot/jdbc/DataSourceBuilder$ComboPooledDataSourceProperties; this   (line 699)
+    |               GETSTATIC org.springframework.boot.jdbc.DataSourceBuilder$DataSourceProperty.URL Lorg/springframework/boot/jdbc/DataSourceBuilder$DataSourceProperty;
+    |               INVOKEDYNAMIC #0.get ()Lorg/springframework/boot/jdbc/DataSourceBuilder$Getter;
+    |               INVOKEDYNAMIC #1.set ()Lorg/springframework/boot/jdbc/DataSourceBuilder$Setter;
+    |               INVOKEVIRTUAL org.springframework.boot.jdbc.DataSourceBuilder$ComboPooledDataSourceProperties.add (Lorg/springframework/boot/jdbc/DataSourceBuilder$DataSourceProperty;Lorg/springframework/boot/jdbc/DataSourceBuilder$Getter;Lorg/springframework/boot/jdbc/DataSourceBuilder$Setter;)V
+    |               ALOAD_2
+    |               ICONST_1
+    |               ICONST_1
+    |               BASTORE
+    |               ALOAD_0     // Lorg/springframework/boot/jdbc/DataSourceBuilder$ComboPooledDataSourceProperties; this   (line 700)
+    |               GETSTATIC org.springframework.boot.jdbc.DataSourceBuilder$DataSourceProperty.DRIVER_CLASS_NAME Lorg/springframework/boot/jdbc/DataSourceBuilder$DataSourceProperty;
+    |               INVOKEDYNAMIC #2.get ()Lorg/springframework/boot/jdbc/DataSourceBuilder$Getter;
+    |               ALOAD_0     // Lorg/springframework/boot/jdbc/DataSourceBuilder$ComboPooledDataSourceProperties; this
+    |               INVOKEDYNAMIC #3.set (Lorg/springframework/boot/jdbc/DataSourceBuilder$ComboPooledDataSourceProperties;)Lorg/springframework/boot/jdbc/DataSourceBuilder$Setter;
+    |               INVOKEVIRTUAL org.springframework.boot.jdbc.DataSourceBuilder$ComboPooledDataSourceProperties.add (Lorg/springframework/boot/jdbc/DataSourceBuilder$DataSourceProperty;Lorg/springframework/boot/jdbc/DataSourceBuilder$Getter;Lorg/springframework/boot/jdbc/DataSourceBuilder$Setter;)V
+    |               ALOAD_2
+    |               ICONST_2
+    |               ICONST_1
+    |               BASTORE
+    |               ALOAD_0     // Lorg/springframework/boot/jdbc/DataSourceBuilder$ComboPooledDataSourceProperties; this   (line 701)
+    |               GETSTATIC org.springframework.boot.jdbc.DataSourceBuilder$DataSourceProperty.USERNAME Lorg/springframework/boot/jdbc/DataSourceBuilder$DataSourceProperty;
+    |               INVOKEDYNAMIC #4.get ()Lorg/springframework/boot/jdbc/DataSourceBuilder$Getter;
+    |               INVOKEDYNAMIC #5.set ()Lorg/springframework/boot/jdbc/DataSourceBuilder$Setter;
+    |               INVOKEVIRTUAL org.springframework.boot.jdbc.DataSourceBuilder$ComboPooledDataSourceProperties.add (Lorg/springframework/boot/jdbc/DataSourceBuilder$DataSourceProperty;Lorg/springframework/boot/jdbc/DataSourceBuilder$Getter;Lorg/springframework/boot/jdbc/DataSourceBuilder$Setter;)V
+    |               ALOAD_2
+    |               ICONST_3
+    |               ICONST_1
+    |               BASTORE
+    |               ALOAD_0     // Lorg/springframework/boot/jdbc/DataSourceBuilder$ComboPooledDataSourceProperties; this   (line 702)
+    |               GETSTATIC org.springframework.boot.jdbc.DataSourceBuilder$DataSourceProperty.PASSWORD Lorg/springframework/boot/jdbc/DataSourceBuilder$DataSourceProperty;
+    |               INVOKEDYNAMIC #6.get ()Lorg/springframework/boot/jdbc/DataSourceBuilder$Getter;
+    |               INVOKEDYNAMIC #7.set ()Lorg/springframework/boot/jdbc/DataSourceBuilder$Setter;
+    |               INVOKEVIRTUAL org.springframework.boot.jdbc.DataSourceBuilder$ComboPooledDataSourceProperties.add (Lorg/springframework/boot/jdbc/DataSourceBuilder$DataSourceProperty;Lorg/springframework/boot/jdbc/DataSourceBuilder$Getter;Lorg/springframework/boot/jdbc/DataSourceBuilder$Setter;)V
+    |               ALOAD_2   (line 703)
+    |               ICONST_4
+    |               ICONST_1
+    |               BASTORE
+    |               RETURN
+    constructor-execution(void org.springframework.boot.jdbc.DataSourceBuilder$ComboPooledDataSourceProperties.<init>())
+  end void <init>()
+
+  private void setDriverClass(com.mchange.v2.c3p0.ComboPooledDataSource, String):
+                    LDC #8.$jacocoData Ljava/lang/Object;
+                    CHECKCAST [Z
+                    ASTORE 4
+    catch java.beans.PropertyVetoException -> E0
+    |               ALOAD_1     // Lcom/mchange/v2/c3p0/ComboPooledDataSource; dataSource   (line 707)
+    |               ALOAD_2     // Ljava/lang/String; driverClass
+    |               INVOKEVIRTUAL com.mchange.v2.c3p0.ComboPooledDataSource.setDriverClass (Ljava/lang/String;)V
+    catch java.beans.PropertyVetoException -> E0
+                    GOTO L0   (line 711)
+                E0: ASTORE 5   (line 709)
+                    ALOAD 4
+                    ICONST_5
+                    ICONST_1
+                    BASTORE
+                    NEW java.lang.IllegalArgumentException   (line 710)
+                    DUP
+                    ALOAD 5     // Ljava/beans/PropertyVetoException; ex
+                    INVOKESPECIAL java.lang.IllegalArgumentException.<init> (Ljava/lang/Throwable;)V
+                    ALOAD 4
+                    BIPUSH 6
+                    ICONST_1
+                    BASTORE
+                    ATHROW
+                L0: ALOAD 4   (line 712)
+                    BIPUSH 7
+                    ICONST_1
+                    BASTORE
+                    RETURN
+  end private void setDriverClass(com.mchange.v2.c3p0.ComboPooledDataSource, String)
+
+  private static boolean[] $jacocoInit(java.lang.invoke.MethodHandles$Lookup, String, Class):
+                    GETSTATIC java.lang.$JaCoCo.data Ljava/lang/Object;
+                    ICONST_3
+                    ANEWARRAY java.lang.Object
+                    DUP
+                    ICONST_0
+                    LDC2_W -1636744671093317893
+                    INVOKESTATIC java.lang.Long.valueOf (J)Ljava/lang/Long;
+                    AASTORE
+                    DUP
+                    ICONST_1
+                    LDC "org/springframework/boot/jdbc/DataSourceBuilder$ComboPooledDataSourceProperties"
+                    AASTORE
+                    DUP
+                    ICONST_2
+                    BIPUSH 8
+                    INVOKESTATIC java.lang.Integer.valueOf (I)Ljava/lang/Integer;
+                    AASTORE
+                    DUP_X1
+                    INVOKEVIRTUAL java.lang.Object.equals (Ljava/lang/Object;)Z
+                    POP
+                    ICONST_0
+                    AALOAD
+                    CHECKCAST [Z
+                    ARETURN
+  end private static boolean[] $jacocoInit(java.lang.invoke.MethodHandles$Lookup, String, Class)
+
+end class org.springframework.boot.jdbc.DataSourceBuilder$ComboPooledDataSourceProperties
+ -- (IllegalStateException) org.aspectj.weaver.MissingResolvedTypeWithKnownSignature) (typeBindings={T=com.mchange.v2.c3p0.ComboPooledDataSource})
+org.aspectj.weaver.MissingResolvedTypeWithKnownSignature) (typeBindings={T=com.mchange.v2.c3p0.ComboPooledDataSource})
+java.lang.IllegalStateException: org.aspectj.weaver.MissingResolvedTypeWithKnownSignature) (typeBindings={T=com.mchange.v2.c3p0.ComboPooledDataSource})
+	at org.aspectj.weaver.BoundedReferenceType.parameterize(BoundedReferenceType.java:112)
+	at org.aspectj.weaver.ResolvedType.parameterize(ResolvedType.java:2549)
+	at org.aspectj.weaver.ResolvedMemberImpl.parameterize(ResolvedMemberImpl.java:897)
+	at org.aspectj.weaver.ResolvedMemberImpl.parameterizedWith(ResolvedMemberImpl.java:789)
+	at org.aspectj.weaver.ResolvedMemberImpl.parameterizedWith(ResolvedMemberImpl.java:742)
+	at org.aspectj.weaver.ReferenceType.getDeclaredMethods(ReferenceType.java:865)
+	at org.aspectj.weaver.ResolvedType$MethodGetterIncludingItds.get(ResolvedType.java:271)
+	at org.aspectj.weaver.ResolvedType$MethodGetterIncludingItds.get(ResolvedType.java:268)
+	at org.aspectj.weaver.Iterators$4$1.hasNext(Iterators.java:213)
+	at org.aspectj.weaver.Iterators$4.hasNext(Iterators.java:230)
+	at org.aspectj.weaver.ResolvedType.lookupResolvedMember(ResolvedType.java:642)
+	at org.aspectj.weaver.JoinPointSignatureIterator.findSignaturesFromSupertypes(JoinPointSignatureIterator.java:192)
+	at org.aspectj.weaver.JoinPointSignatureIterator.hasNext(JoinPointSignatureIterator.java:68)
+	at org.aspectj.weaver.patterns.SignaturePattern.matches(SignaturePattern.java:317)
+	at org.aspectj.weaver.patterns.KindedPointcut.matchInternal(KindedPointcut.java:202)
+	at org.aspectj.weaver.patterns.Pointcut.match(Pointcut.java:137)
+	at org.aspectj.weaver.patterns.AndPointcut.matchInternal(AndPointcut.java:56)
+	at org.aspectj.weaver.patterns.Pointcut.match(Pointcut.java:137)
+	at org.aspectj.weaver.patterns.OrPointcut.matchInternal(OrPointcut.java:60)
+	at org.aspectj.weaver.patterns.Pointcut.match(Pointcut.java:137)
+	at org.aspectj.weaver.ShadowMunger.match(ShadowMunger.java:113)
+	at org.aspectj.weaver.Advice.match(Advice.java:113)
+	at org.aspectj.weaver.bcel.BcelAdvice.match(BcelAdvice.java:158)
+	at org.aspectj.weaver.bcel.BcelClassWeaver.match(BcelClassWeaver.java:3336)
+	at org.aspectj.weaver.bcel.BcelClassWeaver.match(BcelClassWeaver.java:2716)
+	at org.aspectj.weaver.bcel.BcelClassWeaver.weave(BcelClassWeaver.java:483)
+	at org.aspectj.weaver.bcel.BcelClassWeaver.weave(BcelClassWeaver.java:103)
+	at org.aspectj.weaver.bcel.BcelWeaver.weave(BcelWeaver.java:1709)
+	at org.aspectj.weaver.bcel.BcelWeaver.weaveWithoutDump(BcelWeaver.java:1653)
+	at org.aspectj.weaver.bcel.BcelWeaver.weaveAndNotify(BcelWeaver.java:1420)
+	at org.aspectj.weaver.bcel.BcelWeaver.weave(BcelWeaver.java:1189)
+	at org.aspectj.weaver.tools.WeavingAdaptor.getWovenBytes(WeavingAdaptor.java:574)
+	at org.aspectj.weaver.tools.WeavingAdaptor.weaveClass(WeavingAdaptor.java:398)
+	at org.aspectj.weaver.loadtime.Aj.preProcess(Aj.java:122)
+	at org.aspectj.weaver.loadtime.ClassPreProcessorAgentAdapter.transform(ClassPreProcessorAgentAdapter.java:51)
+	at java.instrument/java.lang.instrument.ClassFileTransformer.transform(ClassFileTransformer.java:244)
+	at java.instrument/sun.instrument.TransformerManager.transform(TransformerManager.java:188)
+	at java.instrument/sun.instrument.InstrumentationImpl.transform(InstrumentationImpl.java:610)
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at org.springframework.boot.jdbc.DataSourceBuilder$MappedDataSourceProperties.lookupPooled(DataSourceBuilder.java:424)
+	at org.springframework.boot.jdbc.DataSourceBuilder$MappedDataSourceProperties.forType(DataSourceBuilder.java:406)
+	at org.springframework.boot.jdbc.DataSourceBuilder.findType(DataSourceBuilder.java:265)
+	at org.springframework.boot.jdbc.autoconfigure.DataSourceAutoConfiguration$PooledDataSourceAvailableCondition.getMatchOutcome(DataSourceAutoConfiguration.java:118)
+	at org.springframework.boot.autoconfigure.condition.AbstractNestedCondition$MemberOutcomes.getConditionOutcome(AbstractNestedCondition.java:197)
+	at org.springframework.boot.autoconfigure.condition.AbstractNestedCondition$MemberOutcomes.<init>(AbstractNestedCondition.java:191)
+	at org.springframework.boot.autoconfigure.condition.AbstractNestedCondition$MemberConditions.lambda$getMatchOutcomes$0(AbstractNestedCondition.java:171)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:986)
+	at org.springframework.util.MultiValueMapAdapter.forEach(MultiValueMapAdapter.java:174)
+	at java.base/java.util.Collections$UnmodifiableMap.forEach(Collections.java:1707)
+	at org.springframework.boot.autoconfigure.condition.AbstractNestedCondition$MemberConditions.getMatchOutcomes(AbstractNestedCondition.java:171)
+	at org.springframework.boot.autoconfigure.condition.AbstractNestedCondition$MemberMatchOutcomes.<init>(AbstractNestedCondition.java:80)
+	at org.springframework.boot.autoconfigure.condition.AbstractNestedCondition.getMatchOutcome(AbstractNestedCondition.java:65)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:100)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+	at org.springframework.context.annotation.ConfigurationClassParser.processMemberClasses(ConfigurationClassParser.java:428)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:309)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:283)
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:634)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$0(ConfigurationClassParser.java:864)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:860)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:831)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:200)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:452)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:316)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:795)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:603)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$2(SpringBootContextLoader.java:155)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1465)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:600)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:155)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:114)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:247)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.lambda$loadContext$0(DefaultCacheAwareContextLoaderDelegate.java:167)
+	at org.springframework.test.context.cache.DefaultContextCache.put(DefaultContextCache.java:214)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:160)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:128)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:200)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:139)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:210)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$1(ClassBasedTestDescriptor.java:423)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:428)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$0(ClassBasedTestDescriptor.java:422)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:422)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$0(ClassBasedTestDescriptor.java:334)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:333)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$1(ClassBasedTestDescriptor.java:322)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$0(ClassBasedTestDescriptor.java:321)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:27)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:126)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:70)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$0(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:110)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:42)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:180)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:42)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:180)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:36)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:52)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.executeEngine(EngineExecutionOrchestrator.java:246)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.failOrExecuteEngine(EngineExecutionOrchestrator.java:218)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:179)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:66)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:157)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:65)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:125)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:93)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:48)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$0(InterceptingLauncher.java:41)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:40)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:48)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestDefinitionProcessor$CollectThenExecuteTestDefinitionConsumer.processAllTestDefinitions(JUnitPlatformTestDefinitionProcessor.java:179)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestDefinitionProcessor$CollectThenExecuteTestDefinitionConsumer.access$000(JUnitPlatformTestDefinitionProcessor.java:122)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestDefinitionProcessor.stop(JUnitPlatformTestDefinitionProcessor.java:116)
+	at org.gradle.api.internal.tasks.testing.SuiteTestDefinitionProcessor.stop(SuiteTestDefinitionProcessor.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.gradle.internal.dispatch.MethodInvocation.invokeOn(MethodInvocation.java:77)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:28)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:19)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:88)
+	at jdk.proxy2/jdk.proxy2.$Proxy6.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:195)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:126)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+
