@@ -18,21 +18,21 @@ import java.util.List;
 @RequiredArgsConstructor
 @Slf4j
 @Tag(name = "Carpetas", description = "Operaciones CRUD para carpetas")
-@CrossOrigin(origins = "*")
+
 public class CarpetaController {
 
     private final CarpetaService carpetaService;
 
     @PostMapping
     @Operation(summary = "Crear carpeta")
-    public ResponseEntity<CarpetaDTO> createCarpeta(@RequestBody CarpetaCreateDTO createDTO) {
+    public ResponseEntity<?> createCarpeta(@RequestBody CarpetaCreateDTO createDTO) {
         log.info("POST /api/v1/carpetas - Creando carpeta");
         try {
             CarpetaDTO carpeta = carpetaService.createCarpeta(createDTO);
             return ResponseEntity.status(HttpStatus.CREATED).body(carpeta);
         } catch (IllegalArgumentException e) {
             log.warn("Error al crear carpeta: {}", e.getMessage());
-            return ResponseEntity.badRequest().build();
+            return ResponseEntity.badRequest().body(e.getMessage());
         }
     }
 
@@ -57,14 +57,14 @@ public class CarpetaController {
 
     @PutMapping("/{id}")
     @Operation(summary = "Actualizar carpeta")
-    public ResponseEntity<CarpetaDTO> updateCarpeta(@PathVariable Integer id,
+    public ResponseEntity<?> updateCarpeta(@PathVariable Integer id,
                                                     @RequestBody CarpetaUpdateDTO updateDTO) {
         log.info("PUT /api/v1/carpetas/{}", id);
         try {
             return ResponseEntity.ok(carpetaService.updateCarpeta(id, updateDTO));
         } catch (IllegalArgumentException e) {
             log.warn("Datos inválidos al actualizar carpeta: {}", e.getMessage());
-            return ResponseEntity.badRequest().build();
+            return ResponseEntity.badRequest().body(e.getMessage());
         } catch (RuntimeException e) {
             log.warn("Carpeta no encontrada para actualizar: {}", id);
             return ResponseEntity.notFound().build();

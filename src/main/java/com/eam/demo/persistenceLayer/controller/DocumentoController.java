@@ -18,21 +18,20 @@ import java.util.List;
 @RequiredArgsConstructor
 @Slf4j
 @Tag(name = "Documentos", description = "Operaciones CRUD para documentos")
-@CrossOrigin(origins = "*")
 public class DocumentoController {
 
     private final DocumentoService documentoService;
 
     @PostMapping
     @Operation(summary = "Crear documento")
-    public ResponseEntity<DocumentoDTO> createDocumento(@RequestBody DocumentoCreateDTO createDTO) {
+    public ResponseEntity<?> createDocumento(@RequestBody DocumentoCreateDTO createDTO) {
         log.info("POST /api/v1/documentos - Creando documento");
         try {
             DocumentoDTO documento = documentoService.createDocumento(createDTO);
             return ResponseEntity.status(HttpStatus.CREATED).body(documento);
         } catch (IllegalArgumentException e) {
             log.warn("Error al crear documento: {}", e.getMessage());
-            return ResponseEntity.badRequest().build();
+            return ResponseEntity.badRequest().body(e.getMessage());
         }
     }
 
@@ -57,14 +56,14 @@ public class DocumentoController {
 
     @PutMapping("/{id}")
     @Operation(summary = "Actualizar documento")
-    public ResponseEntity<DocumentoDTO> updateDocumento(@PathVariable Integer id,
-                                                        @RequestBody DocumentoUpdateDTO updateDTO) {
+    public ResponseEntity<?> updateDocumento(@PathVariable Integer id,
+                                                         @RequestBody DocumentoUpdateDTO updateDTO) {
         log.info("PUT /api/v1/documentos/{}", id);
         try {
             return ResponseEntity.ok(documentoService.updateDocumento(id, updateDTO));
         } catch (IllegalArgumentException e) {
             log.warn("Datos inválidos al actualizar documento: {}", e.getMessage());
-            return ResponseEntity.badRequest().build();
+            return ResponseEntity.badRequest().body(e.getMessage());
         } catch (RuntimeException e) {
             log.warn("Documento no encontrado para actualizar: {}", id);
             return ResponseEntity.notFound().build();

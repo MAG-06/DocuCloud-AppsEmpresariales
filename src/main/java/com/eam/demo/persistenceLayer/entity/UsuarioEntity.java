@@ -1,10 +1,17 @@
 package com.eam.demo.persistenceLayer.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+import lombok.EqualsAndHashCode;
 import java.time.OffsetDateTime;
 
-@Data
+@Getter
+@Setter
+@ToString(exclude = {"rol", "organizacion"})
+@EqualsAndHashCode(exclude = {"rol", "organizacion"})
 @Entity
 @Table(name = "Usuario")
 public class UsuarioEntity {
@@ -36,12 +43,14 @@ public class UsuarioEntity {
 
     //relaciones
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "id_rol")
+    @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
     private RolEntity rol; 
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "id_organizacion")
+    @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
     private OrganizacionEntity organizacion;
     
 	public UsuarioEntity() {}

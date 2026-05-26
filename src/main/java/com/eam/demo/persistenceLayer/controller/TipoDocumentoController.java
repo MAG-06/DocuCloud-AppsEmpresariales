@@ -18,21 +18,21 @@ import java.util.List;
 @RequiredArgsConstructor
 @Slf4j
 @Tag(name = "Tipos Documento", description = "Operaciones CRUD para tipos de documento")
-@CrossOrigin(origins = "*")
+
 public class TipoDocumentoController {
 
     private final TipoDocumentoService tipoDocumentoService;
 
     @PostMapping
     @Operation(summary = "Crear tipo de documento")
-    public ResponseEntity<TipoDocumentoDTO> createTipoDocumento(@RequestBody TipoDocumentoCreateDTO createDTO) {
+    public ResponseEntity<?> createTipoDocumento(@RequestBody TipoDocumentoCreateDTO createDTO) {
         log.info("POST /api/v1/tipos-documento - Creando tipo de documento");
         try {
             TipoDocumentoDTO tipoDocumento = tipoDocumentoService.createTipoDocumento(createDTO);
             return ResponseEntity.status(HttpStatus.CREATED).body(tipoDocumento);
         } catch (IllegalArgumentException e) {
             log.warn("Error al crear tipo de documento: {}", e.getMessage());
-            return ResponseEntity.badRequest().build();
+            return ResponseEntity.badRequest().body(e.getMessage());
         }
     }
 
@@ -57,14 +57,14 @@ public class TipoDocumentoController {
 
     @PutMapping("/{id}")
     @Operation(summary = "Actualizar tipo de documento")
-    public ResponseEntity<TipoDocumentoDTO> updateTipoDocumento(@PathVariable Integer id,
+    public ResponseEntity<?> updateTipoDocumento(@PathVariable Integer id,
                                                                 @RequestBody TipoDocumentoUpdateDTO updateDTO) {
         log.info("PUT /api/v1/tipos-documento/{}", id);
         try {
             return ResponseEntity.ok(tipoDocumentoService.updateTipoDocumento(id, updateDTO));
         } catch (IllegalArgumentException e) {
             log.warn("Datos inválidos al actualizar tipo de documento: {}", e.getMessage());
-            return ResponseEntity.badRequest().build();
+            return ResponseEntity.badRequest().body(e.getMessage());
         } catch (RuntimeException e) {
             log.warn("Tipo de documento no encontrado para actualizar: {}", id);
             return ResponseEntity.notFound().build();
