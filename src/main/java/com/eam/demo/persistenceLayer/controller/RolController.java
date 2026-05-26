@@ -18,7 +18,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @Slf4j
 @Tag(name = "Roles", description = "Operaciones CRUD para roles")
-@CrossOrigin(origins = "*")
+
 public class RolController {
 
     private final RolService rolService;

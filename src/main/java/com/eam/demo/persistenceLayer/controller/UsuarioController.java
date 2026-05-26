@@ -18,7 +18,6 @@ import java.util.List;
 @RequiredArgsConstructor
 @Slf4j
 @Tag(name = "Usuarios", description = "Operaciones CRUD para usuarios")
-@CrossOrigin(origins = "*")
 public class UsuarioController {
 
     private final UsuarioService usuarioService;
@@ -89,10 +88,14 @@ public class UsuarioController {
     public ResponseEntity<UsuarioDTO> getUsuarioByCorreo(@RequestParam String correo) {
         log.debug("GET /api/v1/usuarios/correo?correo={}", correo);
         try {
-            return ResponseEntity.ok(usuarioService.getUsuarioByCorreo(correo));
+            UsuarioDTO usuario = usuarioService.getUsuarioByCorreo(correo);
+            return ResponseEntity.ok(usuario);
         } catch (RuntimeException e) {
-            log.warn("Usuario no encontrado con correo: {}", correo);
+            log.warn("Usuario no encontrado con correo: {} - Error: {}", correo, e.getMessage());
             return ResponseEntity.notFound().build();
+        } catch (Exception e) {
+            log.error("Error interno al buscar usuario por correo: {}", correo, e);
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
         }
     }
 

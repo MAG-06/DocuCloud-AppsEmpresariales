@@ -18,7 +18,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @Slf4j
 @Tag(name = "Flujos Paso", description = "Operaciones CRUD para pasos de flujo")
-@CrossOrigin(origins = "*")
+
 public class FlujoPasoController {
 
     private final FlujoPasoService flujoPasoService;

@@ -18,7 +18,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @Slf4j
 @Tag(name = "Auditorías", description = "Operaciones CRUD para auditorías")
-@CrossOrigin(origins = "*")
+
 public class AuditoriaController {
 
     private final AuditoriaService auditoriaService;

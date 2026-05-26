@@ -10,6 +10,10 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
 import java.util.List;
 
 @Service
@@ -19,6 +23,7 @@ import java.util.List;
 public class UsuarioServiceImpl implements UsuarioService {
 
     private final UsuarioDAO usuarioDAO;
+    private final PasswordEncoder passwordEncoder;
 
     @Override
     public UsuarioDTO createUsuario(UsuarioCreateDTO createDTO) {
@@ -30,6 +35,9 @@ public class UsuarioServiceImpl implements UsuarioService {
             log.warn("Intento de crear usuario con correo duplicado: {}", createDTO.getCorreo());
             throw new IllegalArgumentException("Ya existe un usuario con el correo: " + createDTO.getCorreo());
         }
+
+        // Encrypt password
+        createDTO.setContrasena(passwordEncoder.encode(createDTO.getContrasena()));
 
         UsuarioDTO createdUsuario = usuarioDAO.save(createDTO);
         log.info("Usuario creado exitosamente con ID: {}", createdUsuario.getIdUsuario());

@@ -18,7 +18,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @Slf4j
 @Tag(name = "Versiones Documento", description = "Operaciones CRUD para versiones de documento")
-@CrossOrigin(origins = "*")
+
 public class VersionDocumentoController {
 
     private final VersionDocumentoService versionDocumentoService;

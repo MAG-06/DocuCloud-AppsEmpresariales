@@ -18,21 +18,21 @@ import java.util.List;
 @RequiredArgsConstructor
 @Slf4j
 @Tag(name = "Organizaciones", description = "Operaciones CRUD para organizaciones")
-@CrossOrigin(origins = "*")
+
 public class OrganizacionController {
 
     private final OrganizacionService organizacionService;
 
     @PostMapping
     @Operation(summary = "Crear organización")
-    public ResponseEntity<OrganizacionDTO> createOrganizacion(@RequestBody OrganizacionCreateDTO createDTO) {
+    public ResponseEntity<?> createOrganizacion(@RequestBody OrganizacionCreateDTO createDTO) {
         log.info("POST /api/v1/organizaciones - Creando organización");
         try {
             OrganizacionDTO organizacion = organizacionService.createOrganizacion(createDTO);
             return ResponseEntity.status(HttpStatus.CREATED).body(organizacion);
         } catch (IllegalArgumentException e) {
             log.warn("Error al crear organización: {}", e.getMessage());
-            return ResponseEntity.badRequest().build();
+            return ResponseEntity.badRequest().body(e.getMessage());
         }
     }
 
@@ -57,14 +57,14 @@ public class OrganizacionController {
 
     @PutMapping("/{id}")
     @Operation(summary = "Actualizar organización")
-    public ResponseEntity<OrganizacionDTO> updateOrganizacion(@PathVariable Integer id,
+    public ResponseEntity<?> updateOrganizacion(@PathVariable Integer id,
                                                               @RequestBody OrganizacionUpdateDTO updateDTO) {
         log.info("PUT /api/v1/organizaciones/{}", id);
         try {
             return ResponseEntity.ok(organizacionService.updateOrganizacion(id, updateDTO));
         } catch (IllegalArgumentException e) {
             log.warn("Datos inválidos al actualizar organización: {}", e.getMessage());
-            return ResponseEntity.badRequest().build();
+            return ResponseEntity.badRequest().body(e.getMessage());
         } catch (RuntimeException e) {
             log.warn("Organización no encontrada para actualizar: {}", id);
             return ResponseEntity.notFound().build();

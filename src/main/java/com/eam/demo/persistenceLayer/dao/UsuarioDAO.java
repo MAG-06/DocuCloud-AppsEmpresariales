@@ -58,8 +58,11 @@ public class UsuarioDAO {
     }
 
     public Optional<UsuarioDTO> findByCorreo(String correo) {
-        return Optional.ofNullable(usuarioRepository.findByCorreo(correo))
-                .map(usuarioMapper::toDTO);
+        UsuarioEntity entity = usuarioRepository.findByCorreo(correo);
+        if (entity == null) {
+            return Optional.empty();
+        }
+        return Optional.of(usuarioMapper.toDTO(entity));
     }
 
     public Optional<UsuarioDTO> findByCorreoAndEstadoTrue(String correo) {
